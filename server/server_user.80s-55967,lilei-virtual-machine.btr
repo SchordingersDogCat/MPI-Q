@@ -1,0 +1,12 @@
+
+server_user:55967 terminated with signal 6 at PC=78eeb02969fc SP=7fff245c1940.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x78eeb02969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x78eeb0242476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x78eeb02287f3]
+/lib/x86_64-linux-gnu/libfabric.so.1(+0x76b4e)[0x78eeb0521b4e]
+/lib/x86_64-linux-gnu/libc.so.6(+0xeaf48)[0x78eeb02eaf48]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_fork+0x71)[0x78eeb02ea711]
+./server_user(+0x156e)[0x57e21cb6f56e]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x78eeb0229d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x78eeb0229e40]
+./server_user(+0x1325)[0x57e21cb6f325]

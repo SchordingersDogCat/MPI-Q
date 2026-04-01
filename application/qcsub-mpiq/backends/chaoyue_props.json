@@ -1,0 +1,244 @@
+{
+    "name": "Chaoyue",
+    "gates_set": [
+        "rx",
+        "ry",
+        "rz",
+        "cz",
+        "h",
+        "u1",
+        "u2",
+        "u3"
+    ],
+    "num_qubits": 5,
+    "coupling_map":[[0,1],[1,2],[2,3],[3,4]],
+    "qubits_props": {
+        "0": {
+            "index": 0,
+            "t1": 6.287002530156724e-05,
+            "t2": 4.353238590819111e-06,
+            "readout_error": 0.05463126932622897
+        },
+        "1": {
+            "index": 1,
+            "t1": 6.60762270331319e-05,
+            "t2": 1.5140797502126592e-07,
+            "readout_error": 0.049215767153545475
+        },
+        "2": {
+            "index": 2,
+            "t1": 5.4710568336247343e-05,
+            "t2": 1.7413411349298327e-05,
+            "readout_error": 0.03164849796537128
+        },
+        "3": {
+            "index": 3,
+            "t1": 0.00011947513913241081,
+            "t2": 1.4385040994050042e-05,
+            "readout_error": 0.02576284563824105
+        },
+        "4": {
+            "index": 4,
+            "t1": 3.577666841885739e-05,
+            "t2": 1.4366290385011632e-05,
+            "readout_error": 0.0493125474997993
+        }
+    },
+    "gate_props": {
+        "rx_0": {
+            "index": "rx_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "rx_1": {
+            "index": "rx_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "rx_2": {
+            "index": "rx_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "rx_3": {
+            "index": "rx_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "rx_4": {
+            "index": "rx_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "ry_0": {
+            "index": "ry_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "ry_1": {
+            "index": "ry_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "ry_2": {
+            "index": "ry_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "ry_3": {
+            "index": "ry_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "ry_4": {
+            "index": "ry_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "rz_0": {
+            "index": "rz_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "rz_1": {
+            "index": "rz_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "rz_2": {
+            "index": "rz_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "rz_3": {
+            "index": "rz_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "rz_4": {
+            "index": "rz_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "h_0": {
+            "index": "h_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "h_1": {
+            "index": "h_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "h_2": {
+            "index": "h_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "h_3": {
+            "index": "h_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "h_4": {
+            "index": "h_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "u1_0": {
+            "index": "u1_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "u1_1": {
+            "index": "u1_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "u1_2": {
+            "index": "u1_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "u1_3": {
+            "index": "u1_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "u1_4": {
+            "index": "u1_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "u2_0": {
+            "index": "u2_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "u2_1": {
+            "index": "u2_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "u2_2": {
+            "index": "u2_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "u2_3": {
+            "index": "u2_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "u2_4": {
+            "index": "u2_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "u3_0": {
+            "index": "u3_0",
+            "gate_error": 0.0019000000000000128,
+            "gate_length": 4e-08
+        },
+        "u3_1": {
+            "index": "u3_1",
+            "gate_error": 0.0047000000000000375,
+            "gate_length": 2e-08
+        },
+        "u3_2": {
+            "index": "u3_2",
+            "gate_error": 0.0020000000000000018,
+            "gate_length": 2e-08
+        },
+        "u3_3": {
+            "index": "u3_3",
+            "gate_error": 0.0006000000000000449,
+            "gate_length": 2e-08
+        },
+        "u3_4": {
+            "index": "u3_4",
+            "gate_error": 0.009000000000000008,
+            "gate_length": 2e-08
+        },
+        "cz_0_1": {
+            "index": "CZ_0_1",
+            "gate_error": 0.030000000000000027,
+            "gate_length": 2.1999999999999998e-07
+        },
+        "cz_1_2": {
+            "index": "CZ_1_2",
+            "gate_error": 0.016000000000000014,
+            "gate_length": 3.4000000000000003e-07
+        },
+        "cz_2_3": {
+            "index": "CZ_2_3",
+            "gate_error": 0.006000000000000005,
+            "gate_length": 3.6e-07
+        },
+        "cz_3_4": {
+            "index": "CZ_3_4",
+            "gate_error": 0.0010000000000000009,
+            "gate_length": 3.6e-07
+        }
+    }
+}

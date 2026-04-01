@@ -1,0 +1,27 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+gate qft q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19 { h q19; cp(pi/2) q19,q18; cp(pi/4) q19,q17; cp(pi/8) q19,q16; cp(pi/16) q19,q15; cp(pi/32) q19,q14; cp(pi/64) q19,q13; cp(pi/128) q19,q12; cp(pi/256) q19,q11; cp(pi/512) q19,q10; cp(pi/1024) q19,q9; cp(pi/2048) q19,q8; cp(pi/4096) q19,q7; cp(pi/8192) q19,q6; cp(pi/16384) q19,q5; cp(pi/32768) q19,q4; cp(pi/65536) q19,q3; cp(pi/131072) q19,q2; cp(pi/262144) q19,q1; cp(pi/524288) q19,q0; h q18; cp(pi/2) q18,q17; cp(pi/4) q18,q16; cp(pi/8) q18,q15; cp(pi/16) q18,q14; cp(pi/32) q18,q13; cp(pi/64) q18,q12; cp(pi/128) q18,q11; cp(pi/256) q18,q10; cp(pi/512) q18,q9; cp(pi/1024) q18,q8; cp(pi/2048) q18,q7; cp(pi/4096) q18,q6; cp(pi/8192) q18,q5; cp(pi/16384) q18,q4; cp(pi/32768) q18,q3; cp(pi/65536) q18,q2; cp(pi/131072) q18,q1; cp(pi/262144) q18,q0; h q17; cp(pi/2) q17,q16; cp(pi/4) q17,q15; cp(pi/8) q17,q14; cp(pi/16) q17,q13; cp(pi/32) q17,q12; cp(pi/64) q17,q11; cp(pi/128) q17,q10; cp(pi/256) q17,q9; cp(pi/512) q17,q8; cp(pi/1024) q17,q7; cp(pi/2048) q17,q6; cp(pi/4096) q17,q5; cp(pi/8192) q17,q4; cp(pi/16384) q17,q3; cp(pi/32768) q17,q2; cp(pi/65536) q17,q1; cp(pi/131072) q17,q0; h q16; cp(pi/2) q16,q15; cp(pi/4) q16,q14; cp(pi/8) q16,q13; cp(pi/16) q16,q12; cp(pi/32) q16,q11; cp(pi/64) q16,q10; cp(pi/128) q16,q9; cp(pi/256) q16,q8; cp(pi/512) q16,q7; cp(pi/1024) q16,q6; cp(pi/2048) q16,q5; cp(pi/4096) q16,q4; cp(pi/8192) q16,q3; cp(pi/16384) q16,q2; cp(pi/32768) q16,q1; cp(pi/65536) q16,q0; h q15; cp(pi/2) q15,q14; cp(pi/4) q15,q13; cp(pi/8) q15,q12; cp(pi/16) q15,q11; cp(pi/32) q15,q10; cp(pi/64) q15,q9; cp(pi/128) q15,q8; cp(pi/256) q15,q7; cp(pi/512) q15,q6; cp(pi/1024) q15,q5; cp(pi/2048) q15,q4; cp(pi/4096) q15,q3; cp(pi/8192) q15,q2; cp(pi/16384) q15,q1; cp(pi/32768) q15,q0; h q14; cp(pi/2) q14,q13; cp(pi/4) q14,q12; cp(pi/8) q14,q11; cp(pi/16) q14,q10; cp(pi/32) q14,q9; cp(pi/64) q14,q8; cp(pi/128) q14,q7; cp(pi/256) q14,q6; cp(pi/512) q14,q5; cp(pi/1024) q14,q4; cp(pi/2048) q14,q3; cp(pi/4096) q14,q2; cp(pi/8192) q14,q1; cp(pi/16384) q14,q0; h q13; cp(pi/2) q13,q12; cp(pi/4) q13,q11; cp(pi/8) q13,q10; cp(pi/16) q13,q9; cp(pi/32) q13,q8; cp(pi/64) q13,q7; cp(pi/128) q13,q6; cp(pi/256) q13,q5; cp(pi/512) q13,q4; cp(pi/1024) q13,q3; cp(pi/2048) q13,q2; cp(pi/4096) q13,q1; cp(pi/8192) q13,q0; h q12; cp(pi/2) q12,q11; cp(pi/4) q12,q10; cp(pi/8) q12,q9; cp(pi/16) q12,q8; cp(pi/32) q12,q7; cp(pi/64) q12,q6; cp(pi/128) q12,q5; cp(pi/256) q12,q4; cp(pi/512) q12,q3; cp(pi/1024) q12,q2; cp(pi/2048) q12,q1; cp(pi/4096) q12,q0; h q11; cp(pi/2) q11,q10; cp(pi/4) q11,q9; cp(pi/8) q11,q8; cp(pi/16) q11,q7; cp(pi/32) q11,q6; cp(pi/64) q11,q5; cp(pi/128) q11,q4; cp(pi/256) q11,q3; cp(pi/512) q11,q2; cp(pi/1024) q11,q1; cp(pi/2048) q11,q0; h q10; cp(pi/2) q10,q9; cp(pi/4) q10,q8; cp(pi/8) q10,q7; cp(pi/16) q10,q6; cp(pi/32) q10,q5; cp(pi/64) q10,q4; cp(pi/128) q10,q3; cp(pi/256) q10,q2; cp(pi/512) q10,q1; cp(pi/1024) q10,q0; h q9; cp(pi/2) q9,q8; cp(pi/4) q9,q7; cp(pi/8) q9,q6; cp(pi/16) q9,q5; cp(pi/32) q9,q4; cp(pi/64) q9,q3; cp(pi/128) q9,q2; cp(pi/256) q9,q1; cp(pi/512) q9,q0; h q8; cp(pi/2) q8,q7; cp(pi/4) q8,q6; cp(pi/8) q8,q5; cp(pi/16) q8,q4; cp(pi/32) q8,q3; cp(pi/64) q8,q2; cp(pi/128) q8,q1; cp(pi/256) q8,q0; h q7; cp(pi/2) q7,q6; cp(pi/4) q7,q5; cp(pi/8) q7,q4; cp(pi/16) q7,q3; cp(pi/32) q7,q2; cp(pi/64) q7,q1; cp(pi/128) q7,q0; h q6; cp(pi/2) q6,q5; cp(pi/4) q6,q4; cp(pi/8) q6,q3; cp(pi/16) q6,q2; cp(pi/32) q6,q1; cp(pi/64) q6,q0; h q5; cp(pi/2) q5,q4; cp(pi/4) q5,q3; cp(pi/8) q5,q2; cp(pi/16) q5,q1; cp(pi/32) q5,q0; h q4; cp(pi/2) q4,q3; cp(pi/4) q4,q2; cp(pi/8) q4,q1; cp(pi/16) q4,q0; h q3; cp(pi/2) q3,q2; cp(pi/4) q3,q1; cp(pi/8) q3,q0; h q2; cp(pi/2) q2,q1; cp(pi/4) q2,q0; h q1; cp(pi/2) q1,q0; h q0; swap q0,q19; swap q1,q18; swap q2,q17; swap q3,q16; swap q4,q15; swap q5,q14; swap q6,q13; swap q7,q12; swap q8,q11; swap q9,q10; }
+qreg q[20];
+creg meas[20];
+qft q[0],q[1],q[2],q[3],q[4],q[5],q[6],q[7],q[8],q[9],q[10],q[11],q[12],q[13],q[14],q[15],q[16],q[17],q[18],q[19];
+barrier q[0],q[1],q[2],q[3],q[4],q[5],q[6],q[7],q[8],q[9],q[10],q[11],q[12],q[13],q[14],q[15],q[16],q[17],q[18],q[19];
+measure q[0] -> meas[0];
+measure q[1] -> meas[1];
+measure q[2] -> meas[2];
+measure q[3] -> meas[3];
+measure q[4] -> meas[4];
+measure q[5] -> meas[5];
+measure q[6] -> meas[6];
+measure q[7] -> meas[7];
+measure q[8] -> meas[8];
+measure q[9] -> meas[9];
+measure q[10] -> meas[10];
+measure q[11] -> meas[11];
+measure q[12] -> meas[12];
+measure q[13] -> meas[13];
+measure q[14] -> meas[14];
+measure q[15] -> meas[15];
+measure q[16] -> meas[16];
+measure q[17] -> meas[17];
+measure q[18] -> meas[18];
+measure q[19] -> meas[19];

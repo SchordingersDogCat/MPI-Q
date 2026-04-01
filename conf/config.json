@@ -1,0 +1,46 @@
+{
+  "qubit_0": {
+    "ip": "127.0.0.1",
+    "card_id": 1,
+    "channel_id": 1,
+    "waveshape": 3,
+    "freq_Hz": 5000000.0,
+    "ampl": 0.8,
+    "phase_rad": 1.57,
+    "dc_offset": 0.1,
+    "sample_rate_Hz": 100000000.0
+  },
+  "qubit_1": {
+    "ip": "127.0.0.1",
+    "card_id": 1,
+    "channel_id": 2,
+    "waveshape": 2,
+    "freq_Hz": 6000000.0,
+    "ampl": 0.9,
+    "phase_rad": 0.78,
+    "dc_offset": 0.05,
+    "sample_rate_Hz": 100000000.0
+  },
+  "qubit_2": {
+    "ip": "127.0.0.1",
+    "card_id": 2,
+    "channel_id": 1,
+    "waveshape": 3,
+    "freq_Hz": 6000000.0,
+    "ampl": 0.9,
+    "phase_rad": 0.78,
+    "dc_offset": 0.05,
+    "sample_rate_Hz": 100000000.0
+  },
+  "qubit_3": {
+    "ip": "127.0.0.1",
+    "card_id": 2,
+    "channel_id": 2,
+    "waveshape": 2,
+    "freq_Hz": 6000000.0,
+    "ampl": 0.9,
+    "phase_rad": 0.78,
+    "dc_offset": 0.05,
+    "sample_rate_Hz": 100000000.0
+  }
+}
